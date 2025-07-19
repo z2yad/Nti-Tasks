@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager App</title>
+    <link rel="stylesheet" href="E:\NTI MEAN STACK\Forth App\style.css">
+</head>
+<body>
+<h1>Task Manager</h1>
+        
+    <input type="text" class="task_name" placeholder="Enter Task">
+   <label for="task_type_select">Task Status:</label>
+   <select class="task_type" id="task_type_select">
+  <option value="Task">Task</option>
+  <option value="In Progress">In Progress</option>
+  <option value="Done">Done</option>
+    </select>
+
+    <button class="add_task">Add Task</button>
+    <div id="app">
+        
+
+       <ul class="task_list">   
+        <!-- Tasks will be dynamically added here -->
+       </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
